@@ -9,26 +9,16 @@ document.getElementById("sendButton").addEventListener("click", function() {
   
   window.location.href = mailtoLink;
 });
-const navMenu = document.getElementById("nav-menu"),
-  navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nav-close");
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-if (navToggle) {
-  navToggle.addEventListener("click", () => {
-    navMenu.classList.add("show-menu");
-  });
-}
+/*========== NAV BAR ============*/
+const burger = document.getElementById("burger");
+const navLinks = document.getElementById("nav-links");
 
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if (navClose) {
-  navClose.addEventListener("click", () => {
-    navMenu.classList.remove("show-menu");
-  });
-}
-/*==================== REMOVE MENU MOBILE ====================*/
+burger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+
 const navLink = document.querySelectorAll(".nav__link");
 
 const linkAction = () => {
@@ -142,6 +132,16 @@ document.getElementById("downloadButton").addEventListener("click", function() {
   link.click();
   document.body.removeChild(link);
 });
+document.addEventListener('DOMContentLoaded', function(){
+  const whatsappBtn = document.getElementById("whatsappBtn");
+
+  whatsappBtn.addEventListener('click', function(){
+    const whatsappUrl = 'https://wa.me/9985032350';
+    window.open(whatsappUrl, '_blank');
+  })
+})
+
+
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
