@@ -184,12 +184,10 @@ img {
   height: var(--header-height);
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.nav__logo{
-  
-}
+.nav__logo,
 .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -206,11 +204,12 @@ img {
   color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
   .nav__menu {
     position: fixed;
     bottom: 100%;
     left: 0;
+    height:auto;
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
@@ -239,7 +238,7 @@ img {
 }
 
 .nav__icon {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .nav__close {
@@ -503,7 +502,7 @@ img {
 
 .skills__python {
   width: 70%;
-  background-color: rgb(183, 254, 2);
+  background-color: rgb(246, 254, 2);
 }
 
 .skills__figma {
