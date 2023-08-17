@@ -199,13 +199,14 @@ img {
   background: linear-gradient(blue);
   color: white;
   padding: 15px 20px;
-  box-shadow: 0 2px 5px rgba(237, 94, 94, 0.1);
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
   margin-right: auto;
+  color: yellow;
 }
 
 .nav-links {
@@ -351,7 +352,7 @@ img {
 
 }
 .home__img {
-  width:60%;
+  width:auto;
   height: 28vh;
   border-radius: 40px;
   margin-left: auto;
@@ -362,6 +363,7 @@ img {
   .home__img{
     width:300px;
     border-radius: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -430,7 +432,7 @@ img {
   font-size: 2rem;
   margin-left: var(--mb-0-5);
   transition: 0.3s;
-  color: white;
+  color: rgb(153, 151, 151);
 }
 .button--white {
   background-color: #fff;
@@ -723,6 +725,20 @@ img {
 
 .qualification__button.qualification__active {
   color: var(--first-color);
+}
+
+.hr-line1{
+  margin-top:10px;margin-bottom: 20px;
+  background-color: var(--first-color);
+  height: 2px;
+  width: 100%;
+}
+
+.hr-line{
+  margin-top:10px;margin-bottom: 20px;
+  background-color: var(--first-color);
+  height: 2px;
+  width: 60%;
 }
 /*==================== SERVICES ====================*/
 .bottom{
