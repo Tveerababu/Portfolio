@@ -119,13 +119,13 @@ let swiper1 = new Swiper(".testimonial__container", {
 });
 document.getElementById("downloadButton").addEventListener("click", function() {
   // Replace the URL with the actual URL of your PDF file
-  var pdfUrl = "components/pdf/ResumeVeera.pdf";
+  var pdfUrl = "components/pdf/Resume V.pdf";
   
   // Create a link element
   var link = document.createElement("a");
   link.href = pdfUrl;
   link.target = "_blank"; // Open in a new tab
-  link.download = "ResumeVeera.pdf"; // Set the download filename
+  link.download = "Resume V.pdf"; // Set the download filename
   
   // Trigger a click event on the link
   document.body.appendChild(link);
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function(){
   const whatsappBtn = document.getElementById("whatsappBtn");
 
   whatsappBtn.addEventListener('click', function(){
-    const whatsappUrl = 'https://wa.me/9985032350';
+    const whatsappUrl = 'https://wa.me/9985032352';
     window.open(whatsappUrl, '_blank');
   })
 })
