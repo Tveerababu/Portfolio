@@ -1005,6 +1005,12 @@ img {
   font-size: 18px;
   font-weight: bold;
 }
+@media screen and (max-width:576px){
+  .whtbtn{
+    width:auto;
+    height:auto;
+  }
+}
 .msgbtns{
   display: flex;
   justify-content: space-between;
