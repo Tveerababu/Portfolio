@@ -1015,6 +1015,13 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width:576px){
+  .msgbts{
+    width:auto;
+    height:auto;
+    margin-right:auto;
+  }
+}
 /*==================== FOOTER ====================*/
 .footer{
   padding-top:2rem;
