@@ -4,7 +4,7 @@ document.getElementById("sendButton").addEventListener("click", function() {
   var userProject = document.getElementById("UserProject").value;
   var email = "babuv9985@gmail.com";
   var subject = "User Input";
-  var body = userName + "User input: " + userInput + userProject;
+  var body = userName + userInput + userProject;
   var mailtoLink = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   
   window.location.href = mailtoLink;
