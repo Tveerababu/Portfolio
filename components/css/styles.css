@@ -395,7 +395,7 @@ img {
 }
 .home__scroll-button {
   columns: var(--first-color);
-  transition: 0.3s;
+  transition: 1.5s;
 }
 .home__scroll-button:hover {
   transform: translateY(0.25rem);
